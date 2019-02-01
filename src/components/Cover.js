@@ -44,7 +44,7 @@ class Cover extends Component {
                 </div>
                 <div className="description">
                   <h1>
-                    <i class="fas fa-code" />
+                    <i className="fas fa-code" />
                     Web Developer
                   </h1>
                   <hr />
