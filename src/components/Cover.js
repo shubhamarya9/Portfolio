@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 import img from "../avatar.png";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import ParticleComponent from "./particleComponent";
 import Typed from "react-typed";
 
