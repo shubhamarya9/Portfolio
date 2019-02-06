@@ -79,3 +79,12 @@
   font-size: 62px;
   font-weight: bold;
 }
+@media screen and (max-width: 1028px) {
+  .app {
+    width: 50%;
+  }
+}
+.projects-grid {
+  display: flex;
+  justify-content: space-evenly;
+}
