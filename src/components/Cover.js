@@ -11,7 +11,6 @@ class Cover extends Component {
       <Router>
         <div
           style={{
-            position: "absolute",
             top: 0,
             left: 0,
             width: "100%",
@@ -43,40 +42,41 @@ class Cover extends Component {
                 </p>
               </div>
             </Cell>
-          </Grid>
-          <div className="social-links">
-            <h3>
-              My Social Links: <br />
-            </h3>
 
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ textDecoration: "none" }}
-              href="https://www.linkedin.com/in/shubham-arya-630957163/"
-            >
-              <i
-                className="fab fa-linkedin linkd"
-                aria-hidden="true"
-                id="linkedin"
-              />
-            </a>
-            <a
-              href="https://www.instagram.com/__shubhamaaryaa.js/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fab fa-instagram" aria-hidden="true" id="insta" />
-            </a>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ textDecoration: "none" }}
-              href="https://github.com/shubhamarya9/"
-            >
-              <i className="fab fa-github" aria-hidden="true" id="git" />
-            </a>
-          </div>
+            <div className="social-links">
+              <h3>
+                My Social Links: <br />
+              </h3>
+
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ textDecoration: "none" }}
+                href="https://www.linkedin.com/in/shubham-arya-630957163/"
+              >
+                <i
+                  className="fab fa-linkedin linkd"
+                  aria-hidden="true"
+                  id="linkedin"
+                />
+              </a>
+              <a
+                href="https://www.instagram.com/__shubhamaaryaa.js/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-instagram" aria-hidden="true" id="insta" />
+              </a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ textDecoration: "none" }}
+                href="https://github.com/shubhamarya9/"
+              >
+                <i className="fab fa-github" aria-hidden="true" id="git" />
+              </a>
+            </div>
+          </Grid>
         </div>
       </Router>
     );
