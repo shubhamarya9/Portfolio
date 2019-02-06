@@ -49,17 +49,31 @@ class Cover extends Component {
               My Social Links: <br />
             </h3>
 
-            <a href="www.linkedin.com">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: "none" }}
+              href="https://www.linkedin.com/in/shubham-arya-630957163/"
+            >
               <i
                 className="fab fa-linkedin linkd"
                 aria-hidden="true"
                 id="linkedin"
               />
             </a>
-            <a href="www.instagram.com">
+            <a
+              href="https://www.instagram.com/__shubhamaaryaa.js/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="fab fa-instagram" aria-hidden="true" id="insta" />
             </a>
-            <a href="www.github.com">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: "none" }}
+              href="https://github.com/shubhamarya9/"
+            >
               <i className="fab fa-github" aria-hidden="true" id="git" />
             </a>
           </div>

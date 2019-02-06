@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+
 import {
   Tabs,
   Tab,
@@ -35,8 +36,22 @@ class Projects extends Component {
             </CardTitle>
             <CardText>CRUD operations on contacts</CardText>
             <CardActions>
-              <Button colored>Github</Button>
-              <Button colored>Live</Button>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ textDecoration: "none" }}
+                href="https://github.com/shubhamarya9/Contact-Manager"
+              >
+                <Button colored>Github</Button>
+              </a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ textDecoration: "none" }}
+                href="https://shubhamarya9.github.io/Contact-Manager/"
+              >
+                <Button colored>Live</Button>
+              </a>
             </CardActions>
           </Card>
           {/* React 2*/}
@@ -53,8 +68,22 @@ class Projects extends Component {
             </CardTitle>
             <CardText>Manage a photo gallery, add comments</CardText>
             <CardActions>
-              <Button colored>Github</Button>
-              <Button colored>Live</Button>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ textDecoration: "none" }}
+                href="https://github.com/shubhamarya9/Photo-Gallery"
+              >
+                <Button colored>Github</Button>
+              </a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ textDecoration: "none" }}
+                href="https://murmuring-scrubland-17704.herokuapp.com"
+              >
+                <Button colored>Live</Button>
+              </a>
             </CardActions>
           </Card>
         </div>
@@ -77,8 +106,14 @@ class Projects extends Component {
               </CardTitle>
               <CardText>CRUD operations on contacts</CardText>
               <CardActions>
-                <Button colored>Github</Button>
-                <Button colored>Live</Button>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ textDecoration: "none" }}
+                  href="https://github.com/shubhamarya9/weather-app"
+                >
+                  <Button colored>Github</Button>
+                </a>
               </CardActions>
             </Card>
             {/* React 2*/}
@@ -93,10 +128,18 @@ class Projects extends Component {
               >
                 To-Do-App
               </CardTitle>
-              <CardText>Manage a photo gallery, add comments</CardText>
+              <CardText>
+                NodeJS + MongoDB console app for scheduling activities
+              </CardText>
               <CardActions>
-                <Button colored>Github</Button>
-                <Button colored>Live</Button>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ textDecoration: "none" }}
+                  href="https://github.com/shubhamarya9/Node-todo-api"
+                >
+                  <Button colored>Github</Button>
+                </a>
               </CardActions>
             </Card>
           </div>
@@ -118,9 +161,20 @@ class Projects extends Component {
               >
                 Weather-app
               </CardTitle>
-              <CardText>CRUD operations on contacts</CardText>
+              <CardText>
+                NodeJS + MongoDB console app for scheduling activities
+              </CardText>
               <CardActions>
-                <Button colored>Github</Button>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ textDecoration: "none" }}
+                  href="https://github.com/shubhamarya9/Node-todo-api"
+                >
+                  <Button colored style={{ position: "center" }}>
+                    Github
+                  </Button>
+                </a>
               </CardActions>
             </Card>
           </div>
@@ -141,9 +195,20 @@ class Projects extends Component {
             >
               Feedback-app
             </CardTitle>
-            <CardText>CRUD operations on contacts</CardText>
+            <CardText>
+              MongoDB + ExpressJS + ReactJS + NodeJS application with google
+              authentication to create and send survey forms via email (using
+              send grid){" "}
+            </CardText>
             <CardActions>
-              <Button colored>Github</Button>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ textDecoration: "none" }}
+                href="https://github.com/shubhamarya9/Feedback-MERN/tree/master/server"
+              >
+                <Button colored>Github</Button>
+              </a>
             </CardActions>
           </Card>
         </div>

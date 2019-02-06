@@ -21,7 +21,6 @@ class App extends Component {
             scroll
           >
             <Navigation>
-              <Link to="/about">About</Link>
               <Link to="/projects">Projects</Link>
               <Link to="/contact">Contact</Link>
 
@@ -31,7 +30,6 @@ class App extends Component {
           </Header>
           <Drawer title="Title">
             <Navigation>
-              <Link to="/about">About</Link>
               <Link to="/projects">Projects</Link>
               <Link to="/contact">Contact</Link>
             </Navigation>
